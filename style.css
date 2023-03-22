@@ -1,0 +1,37 @@
+body {
+    margin: 0px;
+    background-color:rgb(135, 188, 209);
+    }
+    /*
+#box{
+    position: absolute;
+    font-size: 2vh;
+    padding: 10px;
+    text-align: center;
+    }
+
+button{
+    border:5px double rgb(14, 76, 211);
+    background-color: rgb(21, 211, 224);
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(199, 228, 38);
+    box-shadow: 0 0 6px 2px rgb(35, 38, 223);
+    cursor: pointer;
+}
+*/
+#box {
+    width: 10vw;
+    height: 10vw;
+    background-color: #b916f4;
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box p {
+    font-size: 1.7vw;
+    color: white;
+}
